@@ -30,43 +30,43 @@ $ cd SkyRocket
 
 ## Overview
 
-SkyRocket is a simple website for an IT firm that a lay person can access to get insights about the company. This project makes use of the flexbox framework to help ease aligning items on the page. Lots of utility classes are created that can be reused throughout the website. The lightbox library is used to be able to click on an image and scroll through them. The entire project has been made completely responsive with the help of media queries.
+SkyRocket is a simple website for an IT firm that a lay person can access to get insights about the company. This project makes use of the CSS flexbox framework to help ease aligning items on the page. Lots of utility classes are created that can be reused throughout the website. The lightbox library is used to be able to click on an image and scroll through them. The entire project has been made completely responsive with the help of media queries.
 
 ## Deployment
 
 ## Design
 
-### Overview of the entire website
+#### Overview of the entire website
 
 ![](docs/gif8.gif)
 
-### With the help of cdnjs.com, we obtain the link tag for fontawesome (icons) and paste it in the head of our pages.
+#### With the help of cdnjs.com, we obtain the link tag for fontawesome (icons) and paste it in the head tag of our pages.
 
 ![](docs/gif1.gif)
 
-### We choose fonts of preference from fonts.google.com and paste it in our stylesheet
+#### We choose fonts of preference from fonts.google.com and paste it in our stylesheet
 
 ![](docs/gif2.gif)
 
 
-### The landing page and navbar bounce effect implemented with the help of javascript
+#### The landing page and navbar bounce effect has been implemented with the help of javascript
 
 ![](docs/gif4.gif)
 
-### Implementing smooth scrolling when any choice in the navbar is clicked with the help of jquery. 
+#### Implementing smooth scrolling when any choice in the navbar is clicked with the help of jquery
 
 ![](docs/gif5.gif)
 
-### Creating a lightbox for the images in the gallery
+#### Creating a lightbox for the images in the gallery
 
 ![](docs/gif6.gif)
 
 
-### The website has been made completely responsive with the help of media queries
+#### The website has been made completely responsive with the help of media queries
 
 ![](docs/gif3.gif)
 
-### Creating a Favicon using Dynamic Drive
+#### Creating a Favicon using Dynamic Drive
 
 ![](docs/gif7.gif)
 
