@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Post One</title>
+</head>
+
+<body id="home">
+
+    <!-- Navbar and the showcase image -->
+    <header class="hero blog">
+
+        <div id="navbar" class="navbar top">
+            <h1 class="logo">
+                <span class="text-primary"><i class="fas fa-rocket"></i>Sky</span>Rocket
+                <!--i tag is for the icon from the font-awesome website-->
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <!--#home will go to an id of 'home' on the page-->
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#cases">Cases</a></li>
+                    <li><a href="index.html#blog">Blogs</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1>Blog</h1>
+
+        </div>
+
+    </header>
+
+    <!-- All sections except the footer -->
+    <main>
+        <section class="post">
+            <h2>Blog Post One</h2>
+
+            <p class="meta">
+                <i class="fas fa-user"></i>Posted by <strong>Reginald Strongman</strong> | Feb 9 2021
+            </p>
+
+            <img src="images/blog/blog1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto reprehenderit voluptate illum ad
+                vel! Dolore officia voluptas fuga dignissimos nisi.</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore fugit at minus dolores, deleniti
+                corrupti harum unde. Sint provident assumenda voluptatibus laborum voluptatem, illum in sed eius porro
+                fuga, maiores placeat mollitia impedit. Similique cumque aperiam voluptatem porro ea doloremque
+                consectetur nesciunt quo, iusto odio, et placeat, dolorem debitis consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam amet illum asperiores, earum
+                perspiciatis eum voluptate ad, aspernatur voluptatem vero ducimus recusandae, autem officia laborum
+                numquam est? Consequuntur, quasi fugit? Ut perferendis soluta eveniet. In ex id quisquam nesciunt
+                perspiciatis nobis doloribus modi, non magni placeat quibusdam minus soluta distinctio tempore,
+                excepturi dignissimos voluptatibus similique earum tempora. Nobis, voluptatem?</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark">
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+
+        <p>Copyright &copy; 2021 - SkyRocket</p>
+
+    </footer>
+
+    <script>
+        const navbar = document.getElementById('navbar');
+        let scrolled = false;
+
+        //Brings the background, takes it in and and after 200s brings it out again
+
+        window.onscroll = function () {
+            if (window.pageYOffset > 100) {              /*If we scroll down past 100 px*/
+                navbar.classList.remove('top');        //Brings back the background
+
+                if (!scrolled) {
+                    navbar.style.transform = 'translateY(-70px)';   /*height of the navbar is 70px*/
+                }
+
+                setTimeout(function () {
+                    navbar.style.transform = 'translateY(0)';   /*height of the navbar is 70px*/
+                    scrolled = true;
+
+                }, 200);                                           /*200 ms*/
+            }
+
+            else {
+                navbar.classList.add('top');            //Keeps it transparent
+                scrolled = false;
+            }
+        }
+    </script>
+</body>
+
+</html>
