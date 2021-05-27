@@ -38,45 +38,45 @@ SkyRocket is a simple website for an IT firm that a lay person can access to get
 
 ### Overview of the entire website
 
-![](docs/gif8.jpg)
+![](docs/gif8.gif)
 
 ### With the help of cdnjs.com, we obtain the link tag for fontawesome (icons) and paste it in the head of our pages.
 
-![](docs/gif1.jpg)
+![](docs/gif1.gif)
 
 ### We choose fonts of preference from fonts.google.com and paste it in our stylesheet
 
-![](docs/gif2.jpg)
+![](docs/gif2.gif)
 
 
 ### The landing page and navbar bounce effect implemented with the help of javascript
 
-![](docs/gif4.jpg)
+![](docs/gif4.gif)
 
 ### Implementing smooth scrolling when any choice in the navbar is clicked with the help of jquery. 
 
-![](docs/gif5.jpg)
+![](docs/gif5.gif)
 
 ### Creating a lightbox for the images in the gallery
 
-![](docs/gif6.jpg)
+![](docs/gif6.gif)
 
 
 ### The website has been made completely responsive with the help of media queries
 
-![](docs/gif3.jpg)
+![](docs/gif3.gif)
 
 ### Creating a Favicon using Dynamic Drive
 
-![](docs/gif7.jpg)
+![](docs/gif7.gif)
 
 
 ## Acknowledgement
 
-- Stock images from phttps://www.pexels.com/ & https://unsplash.com/
-- https://cdnjs.com/ to obtain the link tag for fontawesome (icons)
+- Stock images from https://www.pexels.com/ & https://unsplash.com/
+- https://cdnjs.com/  to obtain the link tag for fontawesome (icons)
 - https://fontawesome.com/ for amazing, high quality icons
-- https://fonts.google.com/for some amazing font options
+- https://fonts.google.com/  for some amazing font options
 - https://github.com/lokesh/lightbox2 for the lightbox library
 - https://code.jquery.com/ for jquery
 - https://tools.dynamicdrive.com/favicon/ for the favicon generator
